@@ -6,7 +6,6 @@ html = EscStat.read()
 
 doc = untangle.parse(html)
 outages = doc.NYCOutages.outage
-outage = outages[1]
 
 r=0
 n=0
