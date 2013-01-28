@@ -1,3 +1,4 @@
+
 import urllib2
 import untangle
 
@@ -14,15 +15,19 @@ def CountRepair(xml,REP):
 
     r=0
     n=0
+    OTHER=''
 
     for f in range(len(outages)):
         if outages[f].reason.cdata==REP:
             r+=1
         else:
             n+=1
+            if outages[f].reason.cdata in OTHER:
+                OTHER+=''
+            else:
+                OTHER+=str(outages[f].reason.cdata)+"\n"
 
-    print r,"of",r+n,"outages has the reason",REP
-
-    return
-
+    ANS=str(r)+" of "+str(r+n)+" outages has the reason "+str(REP) 
+         
+    return ANS+"\n\n"+"The other outages are:\n"+OTHER
 
