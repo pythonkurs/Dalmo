@@ -4,7 +4,7 @@ python:
     - 2.7
 script:
     - cd python2
-    - python contemplate_koans.py about_asserts # add further koans here separated by spaces
+    - python contemplate_koans.py about_asserts about_none about_lists about_list_assignments about_dictionaries about_strings about_tuples about_methods about_control_statements about_true_and_false about_sets
 notifications:
   email: false
 
