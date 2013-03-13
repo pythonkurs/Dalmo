@@ -1,0 +1,155 @@
+Factoring 100000000000000000000000000000000000000000000000000:
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+         13936 function calls in 0.150 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 __future__.py:48(<module>)
+        1    0.000    0.000    0.000    0.000 __future__.py:74(_Feature)
+        7    0.000    0.000    0.000    0.000 __future__.py:75(__init__)
+        1    0.007    0.007    0.007    0.007 hashlib.py:55(<module>)
+        6    0.000    0.000    0.000    0.000 hashlib.py:94(__get_openssl_constructor)
+        1    0.000    0.000    0.000    0.000 os.py:743(urandom)
+        1    0.000    0.000    0.000    0.000 pyecm.py:1074(isprime)
+      101    0.005    0.000    0.103    0.001 pyecm.py:1234(factors)
+        2    0.000    0.000    0.000    0.000 pyecm.py:1286(is_switch)
+     6701    0.096    0.000    0.098    0.000 pyecm.py:130(next_prime)
+        2    0.000    0.000    0.000    0.000 pyecm.py:1315(valid_input)
+        1    0.000    0.000    0.103    0.103 pyecm.py:1356(command_line)
+        1    0.000    0.000    0.103    0.103 pyecm.py:1434(main)
+        1    0.016    0.016    0.150    0.150 pyecm.py:15(<module>)
+        3    0.000    0.000    0.000    0.000 pyecm.py:181(mpz)
+        1    0.000    0.000    0.000    0.000 pyecm.py:234(ts)
+        1    0.000    0.000    0.000    0.000 pyecm.py:397(could_be_prime)
+        1    0.000    0.000    0.000    0.000 pyecm.py:454(fastprime)
+        1    0.000    0.000    0.000    0.000 pyecm.py:518(inv_const)
+        1    0.000    0.000    0.000    0.000 random.py:100(seed)
+        1    0.023    0.023    0.031    0.031 random.py:40(<module>)
+        1    0.000    0.000    0.000    0.000 random.py:653(WichmannHill)
+        1    0.000    0.000    0.000    0.000 random.py:72(Random)
+        1    0.000    0.000    0.000    0.000 random.py:803(SystemRandom)
+        1    0.000    0.000    0.000    0.000 random.py:91(__init__)
+        1    0.000    0.000    0.000    0.000 {_hashlib.openssl_md5}
+        1    0.000    0.000    0.000    0.000 {_hashlib.openssl_sha1}
+        1    0.000    0.000    0.000    0.000 {_hashlib.openssl_sha224}
+        1    0.000    0.000    0.000    0.000 {_hashlib.openssl_sha256}
+        1    0.000    0.000    0.000    0.000 {_hashlib.openssl_sha384}
+        1    0.000    0.000    0.000    0.000 {_hashlib.openssl_sha512}
+        1    0.000    0.000    0.000    0.000 {binascii.hexlify}
+        1    0.000    0.000    0.000    0.000 {eval}
+        1    0.000    0.000    0.000    0.000 {function seed at 0x10789fe60}
+        6    0.000    0.000    0.000    0.000 {getattr}
+        6    0.000    0.000    0.000    0.000 {globals}
+        8    0.000    0.000    0.000    0.000 {len}
+        1    0.000    0.000    0.000    0.000 {math.exp}
+     7058    0.002    0.000    0.002    0.000 {math.log}
+        1    0.000    0.000    0.000    0.000 {math.sqrt}
+        1    0.000    0.000    0.000    0.000 {max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {posix.close}
+        1    0.000    0.000    0.000    0.000 {posix.open}
+        1    0.000    0.000    0.000    0.000 {posix.read}
+
+

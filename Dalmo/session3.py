@@ -1,7 +1,7 @@
 import os
-
+@profile
 class repo_dir(object):
-
+    
     def __init__(self, dir):
         self.current = os.getcwd()
         self.new = dir
@@ -15,9 +15,9 @@ class repo_dir(object):
    	
     def __exit__(self, type, value, traceback):
         os.chdir(self.current)	
-
+@profile
 class CourseRepo(object):
-
+    
     def __init__(self, name):
         self.surname = name
 
